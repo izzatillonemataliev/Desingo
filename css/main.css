@@ -1,0 +1,238 @@
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.Our-desingo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 64px 0;
+}
+.our-head{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    color: #1D1C1E;
+}
+.our-heading{
+    text-decoration: none ;
+    color: var(--bg-footer);
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+    letter-spacing: 2px
+}
+
+.web-dizayn{
+    width: 1111px;
+    height: 480px;
+    margin: auto;
+    text-align: center;
+    background-color: #E7816B;
+    padding: 64px 0;
+    margin-bottom: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: auto;
+}
+.bg-img-head img{
+    border-radius: 15px;
+    border: none;
+}
+.bulid {
+    padding: auto;
+    color: var(--frame);
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.bulid-desc {
+    color: var(--frame);
+    width: 458px;
+    height: 130px;
+    margin: 0 80px;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.sec-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.sec-images img{
+    margin-bottom: 32px;
+    border-radius: 15px;
+}
+.sec-images{
+    text-align: center;
+    width: 350px;
+    background-color: var(--about-bg);
+    border-radius: 15px;
+}
+.sec-item{
+    color: var(--footer-links);
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+    letter-spacing: 5px;
+    margin-bottom: 16px;
+}
+.sec-link{
+    color: var(--bg-footer);
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 20px;
+}
+
+
+.world-title{
+    width: 1111px;
+    height: 640px;
+    margin: auto;
+    text-align: center;
+    background-color: #FDF3F0;
+    padding: 64px 0;
+    margin-bottom: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: auto;
+    margin-bottom: 160px;
+}
+.world-bg-img img{
+    border-radius: 15px;
+    border: none;
+}
+.world-sec{
+    margin: auto;
+    color: #E7816B;;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.world-desc {
+    color: #333136;
+    width: 445px;
+    margin: 0 80px;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.counts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 178px;
+    margin-bottom: 160px;
+}
+.canada{
+    color: #333136;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.canada-btn{
+   text-align: center;
+   width: 152px;
+   height: 56px;
+   margin: 0 20px;
+   border-radius: 8px;
+   background-color: #E7816B;
+   border: none;
+
+}
+.canada-btn a{
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.real-title {
+    width: 1111px;
+    height: 640px;
+    margin: auto;
+    background-color: #FDF3F0;
+    padding: 64px 0;
+    margin-bottom: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: auto;
+}
+.real-mini {
+    margin: 0 95px;
+}
+.the-real {
+    width: 445px;
+    height: 48px;
+    color: #E7816B;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 120% */
+    margin-bottom: 24px;
+}
+.the-as {
+    width: 445px;
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    }
+.the-we {
+    color: #333136;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 445px;
+}
+.real-img img{
+   
+}

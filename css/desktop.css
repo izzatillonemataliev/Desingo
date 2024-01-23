@@ -1,0 +1,149 @@
+
+.box-content {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 64px 0;
+    margin-bottom: 64px;
+}
+.our-title{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+.our-link{
+    text-decoration: none ;
+    color: var(--our-link);
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+    letter-spacing: 2px
+}
+.web-dizayn{
+    width: 1111px;
+    height: 252px;
+    margin: auto;
+    text-align: center;
+    background-image: url('../bg-main.png');
+    padding: 64px 0;
+    margin-bottom: 200px;
+}
+.bulid {
+    padding: auto;
+    color: var(--frame);
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.bulid-desc {
+    color: var(--frame);
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.desk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Graphic{
+    text-align: center;
+    background-color: var(--about-bg);
+    margin-bottom: 160px;
+    border-radius: 15px;
+}
+.Graphic img{
+    border-radius: 15px;
+}
+.tim-file{
+    color: var(--footer-links);
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+    letter-spacing: 5px;
+    margin-bottom: 16px;
+}
+.tim-link{
+    width: 286px;
+    margin: auto;
+    color: var(--bg-footer);
+    text-align: center;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 20px;
+}
+
+
+
+.talk-bg-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.talk-img-bg{
+    background: url('../images/home/desktop/image-web-design-large.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    text-align: center;
+    width: 541px;
+    height: 308px;
+}
+
+.talk-img-bgs{
+    background: url('../images/home/desktop/image-app-design.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    text-align: center;
+    width: 541px;
+    height: 308px;
+}
+.talk-apps{
+    margin: 107px 144px;
+}
+.talk-app{
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 120% */
+    letter-spacing: 2px;
+}
+.talk-view{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
